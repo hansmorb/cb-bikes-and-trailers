@@ -4,7 +4,7 @@
   "description": " An extension for CommonsBooking (>=2.0) to facilitate cargobike, bicycle and bicycle trailer rentals ",
   "main": "Gruntfile.js",
   "scripts": {
-    "install": "bin/install-dev-dependencies.sh",
+    "install-dev": "bin/install-dev-dependencies.sh",
     "start" : "grunt default" ,
     "readme" : "grunt readme",
     "i18n" : "grunt i18n",
