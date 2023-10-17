@@ -1,7 +1,6 @@
 {
   "plugins": [
-    ".",
-    "./wp-core/wp-content/plugins/commonsbooking"
+    "https://downloads.wordpress.org/plugin/commonsbooking.zip"
   ],
   "env": {
     "tests": {

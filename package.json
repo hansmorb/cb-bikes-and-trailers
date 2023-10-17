@@ -12,7 +12,8 @@
     "cypress:open": "cypress open --config-file tests/cypress/config.js --e2e --browser firefox",
     "cypress:run": "cypress run --config-file tests/cypress/config.js",
     "env": "wp-env",
-    "env:start": "wp-env start --xdebug",
+    "env:debug": "wp-env start --xdebug",
+    "env:start": "wp-env start",
     "env:stop": "wp-env stop",
     "env:destroy": "wp-env destroy",
     "postenv:start": "./tests/bin/initialize.sh"
