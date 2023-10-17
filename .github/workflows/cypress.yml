@@ -3,11 +3,10 @@ name: E2E test
 on:
   push:
     branches:
-      - develop
-      - trunk
+      - main
   pull_request:
     branches:
-      - develop
+      - main
 jobs:
   cypress:
     name: ${{ matrix.core.name }}

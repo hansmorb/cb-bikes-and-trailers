@@ -9,7 +9,7 @@
     "readme" : "grunt readme",
     "i18n" : "grunt i18n",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cypress:open": "cypress open --config-file tests/cypress/config.js --e2e --browser chrome",
+    "cypress:open": "cypress open --config-file tests/cypress/config.js --e2e --browser firefox",
     "cypress:run": "cypress run --config-file tests/cypress/config.js",
     "env": "wp-env",
     "env:start": "wp-env start --xdebug",

@@ -3,8 +3,6 @@
     ".",
     "./wp-core/wp-content/plugins/commonsbooking"
   ],
-  "port": 1000,
-  "testsPort": 1001,
   "env": {
     "tests": {
       "mappings": {

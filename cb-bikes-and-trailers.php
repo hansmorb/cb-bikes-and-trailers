@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin Name:     CB Bikes And Trailers
+ * Plugin Name:     CommonsBooking -  Bikes and Trailers
  * Plugin URI:      https://github.com/hansmorb/cb-bikes-and-trailers
- * Description:     PLUGIN DESCRIPTION HERE
+ * Description:     An extension for CommonsBooking (>=2.0) to facilitate cargo bike, bicycle and bicycle trailer rentals.
  * Author:          hansmorb
  * Author URI:      https://profiles.wordpress.org/hansmorb/
  * Text Domain:     cb-bikes-and-trailers

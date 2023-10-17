@@ -1,4 +1,9 @@
 <?php
+/**
+ * Initialize the plugin.
+ *
+ * @package CBBikesAndTrailers
+ */
 
 namespace CBBikesAndTrailers;
 
@@ -20,6 +25,7 @@ class Plugin {
 	public static function init() {
 		$plugin = self::get_instance();
 		add_action( 'admin_init', array( self::class, 'check_dependencies' ) );
+		Admin\Register_Menu::run();
 	}
 
 	/**
